@@ -18,7 +18,7 @@ Rules:
 - use `main` to pull/fetch upstream changes from Adrian's repo
 - keep it as close to upstream as practical
 
-### `dan/deploy-prototype`
+### `danmaps/deploy`
 This is Danny's working branch for turning the prototype into a real hosted app.
 
 Use this branch for:
@@ -57,7 +57,7 @@ git fetch --all
 ## Daily workflow
 ### Work on Danny's deploy branch
 ```bash
-git checkout dan/deploy-prototype
+git checkout danmaps/deploy
 ```
 
 ### See upstream changes
@@ -69,13 +69,13 @@ git pull --ff-only upstream main
 ### Bring upstream changes into Danny's branch
 Option A: merge
 ```bash
-git checkout dan/deploy-prototype
+git checkout danmaps/deploy
 git merge main
 ```
 
 Option B: cherry-pick specific commits
 ```bash
-git checkout dan/deploy-prototype
+git checkout danmaps/deploy
 git cherry-pick <commit>
 ```
 
@@ -106,4 +106,4 @@ Likely deploy shape:
 ## Status
 Current branch setup:
 - `main` = upstream tracking branch
-- `dan/deploy-prototype` = Danny deploy/adaptation branch
+- `danmaps/deploy` = Danny deploy/adaptation branch

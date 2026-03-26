@@ -24,7 +24,7 @@ Without losing the ability to:
 
 ## Working branch
 All deploy adaptation work should happen on:
-- `dan/deploy-prototype`
+- `danmaps/deploy`
 
 Not on `main`.
 
@@ -123,7 +123,7 @@ Do the smallest transformation that gets the prototype live.
 Do not overbuild backend/auth/sync infrastructure before the app can run as a normal web application.
 
 ## Immediate next implementation step
-On `dan/deploy-prototype`:
+On `danmaps/deploy`:
 1. scaffold a Vite React app
 2. move prototype into that structure
 3. replace `window.storage` with `localStorage`
